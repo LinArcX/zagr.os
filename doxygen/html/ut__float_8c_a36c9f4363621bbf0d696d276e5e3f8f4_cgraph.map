@@ -1,0 +1,13 @@
+<map id="CLOVE_TEST" name="CLOVE_TEST">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,55,109,80"/>
+<area shape="rect" id="Node000002" href="$float_8c.html#a12b0c953186b8a791869b1d7cfb37e06" title=" " alt="" coords="157,55,253,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,65,143,65,143,70,109,70"/>
+<area shape="rect" id="Node000003" href="$strings_8c.html#a5593b44254f092a8917b10d4eab0aff8" title="convert a float number to string." alt="" coords="301,5,404,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="243,52,300,33,301,38,245,57"/>
+<area shape="rect" id="Node000004" href="$int_8c.html#add8b8cc98a1828aaa5feca71e5359fdb" title=" " alt="" coords="313,55,393,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="254,65,299,65,299,70,254,70"/>
+<area shape="rect" id="Node000006" href="$strings_8c.html#a4b449b95ed4a9de9313644bab5fb2a02" title=" " alt="" coords="302,104,403,129"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="245,78,301,97,300,102,243,83"/>
+<area shape="rect" id="Node000005" href="$hex_8c.html#a206e83fe859c1ad78dc80519fa53a689" title="check if number is hex or no" alt="" coords="452,55,511,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="393,65,438,65,438,70,393,70"/>
+</map>

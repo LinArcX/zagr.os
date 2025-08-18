@@ -1,0 +1,5 @@
+<map id="print" name="print">
+<area shape="rect" id="Node000001" title="since we&#39;re in our own world, there&#39;s no printf, there&#39;s no glibc, there&#39;s no &lt;stdio...." alt="" coords="116,5,168,31"/>
+<area shape="rect" id="Node000002" href="$kernel_8c.html#a26cec8b9e4886585a1b90ad10f9187ee" title="This is the entry point of zagros. kmain will call by bootloader. up until this point,..." alt="" coords="5,5,68,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,21,68,21,68,15,102,15"/>
+</map>

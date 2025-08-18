@@ -1,0 +1,7 @@
+<map id="kmain" name="kmain">
+<area shape="rect" id="Node000001" title="This is the entry point of zagros. kmain will call by bootloader. up until this point,..." alt="" coords="5,31,68,56"/>
+<area shape="rect" id="Node000002" href="$video__mmio_8c.html#ae7bf3255d06c6a3fe379434812540c51" title="clear the screen" alt="" coords="116,5,215,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,35,102,28,103,33,69,40"/>
+<area shape="rect" id="Node000003" href="$video__mmio_8c.html#a6ae644719ece074dc66b46d4673f9d33" title="since we&#39;re in our own world, there&#39;s no printf, there&#39;s no glibc, there&#39;s no &lt;stdio...." alt="" coords="139,55,191,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="69,47,126,57,125,63,68,52"/>
+</map>

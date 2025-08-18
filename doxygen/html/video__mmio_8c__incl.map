@@ -1,0 +1,7 @@
+<map id="src/util/video_mmio.c" name="src/util/video_mmio.c">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,168,31"/>
+<area shape="rect" id="Node000002" href="$video__mmio_8h.html" title="video memory mapped io (mmio):" alt="" coords="29,79,144,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,31,89,65,84,65,84,31"/>
+<area shape="rect" id="Node000003" href="$globals_8h.html" title="contains global variables, structs, typedefs. more details about colors: https://wiki...." alt="" coords="46,152,127,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="89,104,89,138,84,138,84,104"/>
+</map>
