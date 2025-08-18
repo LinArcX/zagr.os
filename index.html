@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+  <title>Zagros Project Reports - Retro Style</title>
+  <meta charset="utf-8" />
+  <style>
+    body {
+      background: #3366cc url("https://www.transparenttextures.com/patterns/stardust.png");
+      color: #00ff00;
+      font-family: "Courier New", monospace;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 48px;
+      color: #ff0;
+      text-shadow: 2px 2px 4px #f00;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #0ff;
+      text-decoration: underline;
+    }
+    a {
+      color: #ff0;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #fff;
+      background: #f00;
+    }
+    .links {
+      margin: 0px auto;
+      border: 3px double #0ff;
+      padding: 20px;
+      width: 60%;
+      background: #000;
+    }
+    .marquee {
+      background: #ff0;
+      color: #000;
+      padding: 5px;
+      font-weight: bold;
+    }
+    footer {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #fff;
+    }
+    .blink {
+      animation: blink 1s steps(1, end) infinite;
+    }
+    @keyframes blink {
+      50% { visibility: hidden; }
+    }
+    .mountain-image {
+      margin-top: 40px;
+      max-width: 90%;
+      height: auto;
+      border: 4px solid #ff0;
+    }
+  </style>
+</head>
+<body>
+  <div class="marquee"><marquee>⛰️ Welcome to the ZagrOS ⛰️</marquee></div>
+
+  <h1>Zagros Project Reports</h1>
+
+  <div class="links">
+    <p><a href="./doxygen/index.html">📘 Doxygen Documentations</a></p>
+    <p><a href="./coverage/index.html">📊 Coverage Report</a></p>
+    <p><a href="./tests/index.html">🧪 Unit Test Report</a></p>
+  </div>
+
+  <img src="zagros.jpg" width="40%" height="40%" alt="Zagros Mountains" class="mountain-image" />
+  <br/>
+  <a href="https://en.wikipedia.org/wiki/Zagros_Mountains">Dena Glaciers</a>
+
+  <footer>
+    <p>© <span id="year"></span> Zagros Project</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
