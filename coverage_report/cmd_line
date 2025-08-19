@@ -1,0 +1,1 @@
+genhtml unit_tests/build/coverage.info --output-directory unit_tests/build/coverage_report
