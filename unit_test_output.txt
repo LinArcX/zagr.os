@@ -1,0 +1,46 @@
+[INFO] Executing Test Runner with detail level: 'Full'
+[INFO] Suites / Tests found: 1 / 41
+[INFO] 01) UtilSuite.absNegative..............................[PASS] (0.001 ms)
+[ERRO] 02) UtilSuite.absNonIntParameter.......................[FAIL] unit_tests/ut_int.c:74: expected [4294967293] but was [0]
+[INFO] 03) UtilSuite.absPositive..............................[PASS] (0.000 ms)
+[INFO] 04) UtilSuite.absZero..................................[PASS] (0.000 ms)
+[ERRO] 05) UtilSuite.floatToString0Digit2Fractional...........[FAIL] unit_tests/ut_strings.c:126: expected "0.08" but was ""
+[ERRO] 06) UtilSuite.floatToString0Digit2FractionalNegative...[FAIL] unit_tests/ut_strings.c:133: expected "0.08" but was ""
+[ERRO] 07) UtilSuite.floatToString1Digit1Fraction.............[FAIL] unit_tests/ut_strings.c:91: expected "1.1" but was ""
+[ERRO] 08) UtilSuite.floatToString2Digit2Fraction.............[FAIL] unit_tests/ut_strings.c:98: expected "23.67" but was ""
+[ERRO] 09) UtilSuite.floatToString3Digit2Fractions............[FAIL] unit_tests/ut_strings.c:105: expected "927.12" but was ""
+[ERRO] 10) UtilSuite.floatToString3Digit4FractionNegative.....[FAIL] unit_tests/ut_strings.c:119: expected "-927.1201" but was ""
+[ERRO] 11) UtilSuite.floatToString3DigitNegative..............[FAIL] unit_tests/ut_strings.c:112: expected "-261" but was ""
+[ERRO] 12) UtilSuite.hexToDecimalInputHex.....................[FAIL] unit_tests/ut_int.c:145: expected [255] but was [0]
+[ERRO] 13) UtilSuite.hexToDecimalInputNonHex..................[FAIL] unit_tests/ut_int.c:157: expected [4294967294] but was [0]
+[INFO] 14) UtilSuite.hexToDecimalNULL.........................[PASS] (0.000 ms)
+[ERRO] 15) UtilSuite.hexToString1Digit........................[FAIL] unit_tests/ut_strings.c:141: expected "0x1" but was ""
+[ERRO] 16) UtilSuite.hexToString2Digit........................[FAIL] unit_tests/ut_strings.c:148: expected "0x89" but was ""
+[ERRO] 17) UtilSuite.hexToString3Digit........................[FAIL] unit_tests/ut_strings.c:155: expected "0x8AF" but was ""
+[ERRO] 18) UtilSuite.hexToString4DigitPlusA...................[FAIL] unit_tests/ut_strings.c:162: expected "0xFFAC" but was ""
+[WARN] 19) UtilSuite.intToStringNegative......................[SKIP] unit_tests/ut_strings.c:78: Missing assertion!
+[WARN] 20) UtilSuite.intToStringPositive......................[SKIP] unit_tests/ut_strings.c:82: Missing assertion!
+[WARN] 21) UtilSuite.intToStringZero..........................[SKIP] unit_tests/ut_strings.c:74: Missing assertion!
+[ERRO] 22) UtilSuite.lengthFloatJustFraction..................[FAIL] unit_tests/ut_float.c:43: expected [0] but was [1]
+[ERRO] 23) UtilSuite.lengthFloatJustFractionWithout0..........[FAIL] unit_tests/ut_float.c:53: expected [0] but was [1]
+[ERRO] 24) UtilSuite.lengthFloatJustNumerator.................[FAIL] unit_tests/ut_float.c:64: expected [0] but was [4294967294]
+[ERRO] 25) UtilSuite.lengthFloatNegative......................[FAIL] unit_tests/ut_float.c:34: expected [4] but was [4294967294]
+[ERRO] 26) UtilSuite.lengthFloatPositive......................[FAIL] unit_tests/ut_float.c:24: expected [1] but was [4294967294]
+[ERRO] 27) UtilSuite.lengthFloatZero..........................[FAIL] unit_tests/ut_float.c:14: expected [0] but was [4294967294]
+[INFO] 28) UtilSuite.lengthIntNegative........................[PASS] (0.000 ms)
+[ERRO] 29) UtilSuite.lengthIntNonIntParameter.................[FAIL] unit_tests/ut_int.c:43: expected [-3] but was [1]
+[INFO] 30) UtilSuite.lengthIntPositive........................[PASS] (0.000 ms)
+[INFO] 31) UtilSuite.lengthIntZero............................[PASS] (0.000 ms)
+[INFO] 32) UtilSuite.lengthStringArray........................[PASS] (0.000 ms)
+[INFO] 33) UtilSuite.lengthStringCharPointer..................[PASS] (0.000 ms)
+[INFO] 34) UtilSuite.lengthStringNULL.........................[PASS] (0.000 ms)
+[WARN] 35) UtilSuite.sliceOfStringArray.......................[SKIP] unit_tests/ut_strings.c:65: Missing assertion!
+[WARN] 36) UtilSuite.sliceOfStringCharPointr..................[SKIP] unit_tests/ut_strings.c:61: Missing assertion!
+[WARN] 37) UtilSuite.sliceOfStringEmpty.......................[SKIP] unit_tests/ut_strings.c:57: Missing assertion!
+[WARN] 38) UtilSuite.sliceOfStringOrdinaryString..............[SKIP] unit_tests/ut_strings.c:69: Missing assertion!
+[ERRO] 39) UtilSuite.stringToIntAllDigits.....................[FAIL] unit_tests/ut_int.c:129: expected [123] but was [0]
+[ERRO] 40) UtilSuite.stringToIntContainsNonDigits.............[FAIL] unit_tests/ut_int.c:99: expected [4294967294] but was [0]
+[ERRO] 41) UtilSuite.stringToIntNULL..........................[FAIL] unit_tests/ut_int.c:87: expected [4294967295] but was [0]
+[INFO] Total: 41, Passed: 10, Failed: 24, Skipped: 7
+[INFO] Run duration: 0 ms
+[ERRO] Run result: FAILURE :_(
