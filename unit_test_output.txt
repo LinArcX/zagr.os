@@ -1,6 +1,6 @@
 [INFO] Executing Test Runner with detail level: 'Full'
 [INFO] Suites / Tests found: 1 / 41
-[INFO] 01) UtilSuite.absNegative..............................[PASS] (0.001 ms)
+[INFO] 01) UtilSuite.absNegative..............................[PASS] (0.000 ms)
 [ERRO] 02) UtilSuite.absNonIntParameter.......................[FAIL] unit_tests/ut_int.c:74: expected [4294967293] but was [0]
 [INFO] 03) UtilSuite.absPositive..............................[PASS] (0.000 ms)
 [INFO] 04) UtilSuite.absZero..................................[PASS] (0.000 ms)
